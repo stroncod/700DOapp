@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #MercadoLibre's Android SDK
 
 This is the official Android SDK for MercadoLibre's Platform.
@@ -166,3 +167,7 @@ void onRequestProcessed(@HttpRequestParameters.MeliHttpVerbs int requestCode, Ap
 ## Examples
 
 Within the code in the Github repository, there is an example project that contains examples of how to use the SDK.
+=======
+# 700DOapp
+App Taskr/Chasquilla para la hackathon 700DO
+>>>>>>> 9c741153f438d35b7599f056dff711cc500769d1
