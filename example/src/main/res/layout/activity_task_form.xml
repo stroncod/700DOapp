@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_task_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mercadolibre.android.sdk.example.TaskForm">
+
+    <EditText
+        android:hint="Pesos"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:layout_marginTop="22dp"
+        android:id="@+id/payment_edit_text"
+        android:layout_below="@+id/title_edit_text"
+        android:layout_alignLeft="@+id/title_edit_text"
+        android:layout_alignStart="@+id/title_edit_text"
+        android:layout_width="100dp" />
+
+    <EditText
+        android:hint="Descripcion"
+        android:layout_width="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_marginTop="24dp"
+        android:id="@+id/descrip_edit_text"
+        android:layout_height="200dp"
+        android:layout_below="@+id/payment_edit_text"
+        android:layout_alignLeft="@+id/payment_edit_text"
+        android:layout_alignStart="@+id/payment_edit_text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Titulo"
+        android:ems="10"
+        android:layout_marginTop="55dp"
+        android:id="@+id/title_edit_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_task_btn"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/descrip_edit_text"
+        android:layout_alignRight="@+id/descrip_edit_text"
+        android:layout_alignEnd="@+id/descrip_edit_text" />
+</RelativeLayout>

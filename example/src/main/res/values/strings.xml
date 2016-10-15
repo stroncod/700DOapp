@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Chasquilla</string>
+
+    <!--Parse -->
+    <string name="parse_app_id">700dohackathon1415102016</string>
+    <string name="parse_client_key">e3131911bb93460ba6e9ab6558033215c94f5219</string>
+
+    <!-- Main Screen -->
+    <string name="txt_examples">Here is a list of examples that will help you integrate the MercadoLibre SDK into your app. </string>
+    <string name="btn_login_examples">Login/Register</string>
+
+
+    <string name="title_activity_detail_map_view">Detalles</string>
+    <!-- Login Screen -->
+    <string name="user_id_text">User ID: %1$s</string>
+    <string name="access_token_text">Access Token: %1$s</string>
+    <string name="expires_in_text">Expires in: %1$s</string>
+
+
+    <!-- Result Screen -->
+    <string name="result_title">Result</string>
+    <string name="result_code">Code: %1$s</string>
+    <string name="result_content">Content: %1$s</string>
+
+    <!-- Declare the proper app identifier for this application -->
+    <string name="meli_app_id">6361683694747561</string>
+
+    <!-- Declare the Redirect URI requested by the Meli SDK -->
+    <string name="meli_redirect_uri">https://www.getpostman.com/oauth2/callback</string>
+</resources>
